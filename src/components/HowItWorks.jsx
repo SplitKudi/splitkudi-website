@@ -52,7 +52,7 @@ export default function HowItWorks() {
             <div
               className="absolute inset-0 h-full"
               style={{
-                background: 'linear-gradient(90deg, #CC5500, #E85D2E, #4ADE80)',
+                background: 'linear-gradient(90deg, #0EA5E9, #38BDF8, #4ADE80)',
                 backgroundSize: '200% 100%',
                 animation: 'gradientShift 3s linear infinite',
                 opacity: 0.6,

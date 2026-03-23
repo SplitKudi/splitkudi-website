@@ -50,7 +50,7 @@ export default function CTA() {
         <div
           className="absolute inset-0"
           style={{
-            background: 'linear-gradient(135deg, #AA4400, #CC5500, #E85D2E, #FF9E6B, #E85D2E, #CC5500)',
+            background: 'linear-gradient(135deg, #0284C7, #0EA5E9, #38BDF8, #7DD3FC, #38BDF8, #0EA5E9)',
             backgroundSize: '300% 300%',
             animation: 'gradientShift 6s ease infinite',
           }}

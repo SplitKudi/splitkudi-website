@@ -45,7 +45,7 @@ export default function PhoneMockup() {
           {/* ── SLIVER APP BAR (gradient header) ── */}
           <div
             className="relative px-4 pt-8 pb-4"
-            style={{ background: 'linear-gradient(135deg, #AA4400, #CC5500)' }}
+            style={{ background: 'linear-gradient(135deg, #0284C7, #0EA5E9)' }}
           >
             {/* Top row: avatar + name/date + bell */}
             <div className="flex items-center justify-between mb-4">
@@ -84,7 +84,7 @@ export default function PhoneMockup() {
 
             {/* Stats Grid 2x2 */}
             <div className="grid grid-cols-2 gap-2">
-              <StatCard label="Total Groups"     value="12"      icon="👥" color="#CC5500" gradient />
+              <StatCard label="Total Groups"     value="12"      icon="👥" color="#0EA5E9" gradient />
               <StatCard label="Pending Payments" value="5"       icon="⏳" color="#FBBF24" />
               <StatCard label="This Month"       value="₦45,200" icon="📅" color="#60A5FA" />
               <StatCard label="Settled"          value="23"      icon="✅" color="#4ADE80" />
@@ -99,11 +99,11 @@ export default function PhoneMockup() {
                 <div
                   key={a.label}
                   className="rounded-2xl p-3 flex flex-col items-center gap-2"
-                  style={{ background: '#141414', border: '1px solid rgba(204,85,0,0.3)' }}
+                  style={{ background: '#141414', border: '1px solid rgba(14,165,233,0.3)' }}
                 >
                   <div
                     className="w-9 h-9 rounded-full flex items-center justify-center text-base"
-                    style={{ background: 'rgba(204,85,0,0.1)' }}
+                    style={{ background: 'rgba(14,165,233,0.1)' }}
                   >
                     {a.icon}
                   </div>
@@ -121,13 +121,13 @@ export default function PhoneMockup() {
                 <p className="text-[#F5F5F5] text-[11px] font-bold">Monthly Overview</p>
                 <span
                   className="text-[9px] font-semibold px-2 py-0.5 rounded-full"
-                  style={{ background: 'rgba(204,85,0,0.1)', color: '#CC5500' }}
+                  style={{ background: 'rgba(14,165,233,0.1)', color: '#0EA5E9' }}
                 >
                   Mar 2026
                 </span>
               </div>
               <div className="flex flex-col gap-2">
-                <OverviewRow label="Total Expenses"  value="₦45,200" icon="🧾" color="#CC5500" />
+                <OverviewRow label="Total Expenses"  value="₦45,200" icon="🧾" color="#0EA5E9" />
                 <OverviewRow label="Amount Paid"     value="₦28,700" icon="💸" color="#4ADE80" />
                 <OverviewRow label="Still Owe"       value="₦12,500" icon="↑"  color="#F87171" />
                 <OverviewRow label="Others Owe You"  value="₦8,483"  icon="↓"  color="#60A5FA" />
@@ -158,7 +158,7 @@ export default function PhoneMockup() {
                 <span className={`text-base ${item.active ? '' : 'opacity-40'}`}>{item.icon}</span>
                 <span
                   className="text-[8px] font-medium"
-                  style={{ color: item.active ? '#CC5500' : '#9CA3AF' }}
+                  style={{ color: item.active ? '#0EA5E9' : '#9CA3AF' }}
                 >
                   {item.label}
                 </span>
