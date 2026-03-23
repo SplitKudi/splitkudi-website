@@ -17,7 +17,7 @@ export default function Hero() {
         <div
           className="absolute inset-0 opacity-[0.03]"
           style={{
-            backgroundImage: `linear-gradient(rgba(204,85,0,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(204,85,0,0.5) 1px, transparent 1px)`,
+            backgroundImage: `linear-gradient(rgba(14,165,233,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(14,165,233,0.5) 1px, transparent 1px)`,
             backgroundSize: '60px 60px',
           }}
         />

@@ -5,14 +5,14 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#CC5500',
-          dark: '#AA4400',
-          light: '#EE6600',
+          DEFAULT: '#0EA5E9',
+          dark: '#0284C7',
+          light: '#38BDF8',
         },
         secondary: {
-          DEFAULT: '#E85D2E',
-          dark: '#B84724',
-          light: '#FF9E6B',
+          DEFAULT: '#000000',
+          dark: '#0A0A0A',
+          light: '#1A1A1A',
         },
         bg: {
           DEFAULT: '#0A0A0A',
@@ -56,8 +56,8 @@ export default {
           '50%': { backgroundPosition: '100% 50%' },
         },
         glow: {
-          from: { boxShadow: '0 0 20px rgba(204,85,0,0.3)' },
-          to: { boxShadow: '0 0 60px rgba(204,85,0,0.7)' },
+          from: { boxShadow: '0 0 20px rgba(14,165,233,0.3)' },
+          to: { boxShadow: '0 0 60px rgba(14,165,233,0.7)' },
         },
       },
       backgroundSize: {
